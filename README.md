@@ -13,10 +13,9 @@ The problems in this repositories are solved mainly in three programming languag
 This repository follows this specifc structure:
 
 ```
-.
-+-- problems
-|   +-- programming-languages
-|   |   +-- C / C++
-|   |   +-- Java
-|   |   +-- Python
+└── problems
+    ├── C++
+    ├── java
+    └── python
+
 ```
