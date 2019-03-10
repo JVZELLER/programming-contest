@@ -3,6 +3,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Feira de Adoção
+ * 
+ * @problem_number 2535
+ * 
+ * @category Strings
+ * 
+ * @difficulty_level 7
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2535">Link URI Online Judge</a>
+ * 
+ */
 public class FeiraDeAdocao {
 
     public static void main( String[] args ) throws IOException {

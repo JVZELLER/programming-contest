@@ -4,6 +4,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Revisão de Contrato
+ * 
+ * @problem_number 1120
+ * 
+ * @category Strings
+ * 
+ * @difficulty_level 5
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1120">Link URI Online Judge</a>
+ * 
+ */
 public class RevisaoDeContrato {
 
     public static void main( String[] args ) throws IOException {

@@ -4,6 +4,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Botas Perdidas
+ * 
+ * @problem_number 1245
+ * 
+ * @category AD-Hoc
+ * 
+ * @difficulty_level 4
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1245">Link URI Online Judge</a>
+ * 
+ */
 public class BotasPerdidas {
 
     public static void main( String[] args ) throws IOException {

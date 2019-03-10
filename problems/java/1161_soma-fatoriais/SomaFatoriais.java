@@ -4,6 +4,21 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Soma de Fatoriais
+ * 
+ * @problem_number 1161
+ * 
+ * @category Matemática
+ * 
+ * @difficulty_level 6
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1161">Link URI Online Judge</a>
+ * 
+ */
 public class SomaFatoriais {
 
     public static void main( String[] args ) throws IOException {

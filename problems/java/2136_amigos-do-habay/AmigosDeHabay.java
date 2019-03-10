@@ -3,6 +3,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Amigos do Habay
+ * 
+ * @problem_number 2136
+ * 
+ * @category Estruturas e Bibliotecas (Listas e Ordenação)
+ * 
+ * @difficulty_level 2
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2136">Link URI Online Judge</a>
+ * 
+ */
 public class AmigosDeHabay {
 
     public static void main( String[] args ) throws IOException {

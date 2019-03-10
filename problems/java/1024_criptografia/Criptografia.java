@@ -3,6 +3,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 
+ * @author zeller
+ *
+ * @problem_name Criptografia
+ * 
+ * @problem_number 1024
+ * 
+ * @category Strings
+ * 
+ * @difficulty_level 6
+ * 
+ * @see <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/1024">Link URI Online Judge</a>
+ * 
+ */
 public class Criptografia {
 
     public static void main( String[] args ) throws IOException {
