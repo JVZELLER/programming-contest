@@ -25,12 +25,15 @@ There is an folder for each problem solved, the name of these folder follows thi
 ### URI Online Judge Problems:
 
 [problem_number] + _ + [problem_name]
+
 Ex.: 2136_amigos-do-habey
 
 ### From other sources or old programming contest
 [contest-name] + _ + [problem-name]
 or
 [source-name] + _ + [problem-name]
+
+Ex.: inter-fatecs-2018_formula-rubens
 
 
 ## Java Files
