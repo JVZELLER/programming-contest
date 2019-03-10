@@ -40,7 +40,7 @@ Ex.: inter-fatecs-2018_formula-rubens
 For problems solved in java, the java file must contain this specifc Javadoc template:
 1. @author
 2. @problem_name
-3. problem_number
+3. @problem_number
 4. @category
 5. @difficulty_level
 6. @see (link to the source if it's hosted in an web site)
