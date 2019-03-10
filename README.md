@@ -22,13 +22,17 @@ This repository follows this specifc folder structure:
 ## Folders Name
 There is an folder for each problem solved, the name of these folder follows this specific structure:
 
-URI Online Judge Problems:
-```
-[problem_number] + _ + [problem_name(using dash-sintax)]
+### URI Online Judge Problems:
 
+[problem_number] + _ + [problem_name]
 Ex.: 2136_amigos-do-habey
 
-```
+### From other sources or old programming contest
+[contest-name] + _ + [problem-name]
+or
+[source-name] + _ + [problem-name]
+
+
 ## Java Files
 For problems solved in java, the java file must contain this specifc Javadoc template:
 1. @author
@@ -36,7 +40,8 @@ For problems solved in java, the java file must contain this specifc Javadoc tem
 3. problem_number
 4. @category
 5. @difficulty_level
-6. @see (link to Uri Online Judge Problem)
+6. @see (link to the source if it's hosted in an web site)
+
 ```
 /**
  * 
