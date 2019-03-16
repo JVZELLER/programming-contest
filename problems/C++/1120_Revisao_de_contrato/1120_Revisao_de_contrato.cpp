@@ -1,8 +1,8 @@
 /*
-	author: Ot·vio Augusto - OAMP
-	problem_name: Revis„o de Contrato
+	author: Ot√°vio Augusto - OAMP
+	problem_name: Revis√£o de Contrato
 	problem_number: 1120
-	category: Ad-hoc
+	category: Strings
 	difficulty_level: 5
 	link: https://www.urionlinejudge.com.br/judge/pt/problems/view/1120
 */
@@ -13,50 +13,50 @@
 
 using namespace std;
 
-inline bool flagCh(char ch) {  // verific se o char È nulo ou '0'
+inline bool flagCh(char ch) {  // verific se o char √© nulo ou '0'
   return (ch == '0' | ch == NULL) ? true : false;
 }
 
 int main() {
-  int n;  // vari·vel para digito com problema
+  int n;  // vari√°vel para digito com problema
   string val, result;  // val armazena valor original e resultado final
   char n_str;  // char para digito com problema
   size_t found, len_val;  // found indica se digito foi encontrado
     
-  while (scanf("%d", &n) != EOF) {  // captura digito atÈ EOF
+  while (scanf("%d", &n) != EOF) {  // captura digito at√© EOF
     getchar();  // limpa buffer
     getline(cin, val);  // recebe valor original
     len_val = val.size();  // recebe tamanho do valor original
 
     if (n == 0 && len_val == 1 && val[0] == '0')  // val original e digito != 0
-      break;  // fim da execuÁ„o
+      break;  // fim da execu√ß√£o
 
     n_str = '0' + n;  // converte digito para char
     found = val.find(n_str);  // procura por char
-    do {  // faÁa
+    do {  // fa√ßa
       if (found != string::npos)  // char encontrado?
-        val.replace(found, 1, "");  // troca char na posiÁao encontrada por ""
-      else  // char n„o foi encontrado?
-        break;  // termina laÁo do while
+        val.replace(found, 1, "");  // troca char na posi√ßao encontrada por ""
+      else  // char n√£o foi encontrado?
+        break;  // termina la√ßo do while
       found = val.find(n_str);  // executa busca por mais digitos
     } while (true);  // enquanto verdade
 
-    if (val.size() == 0) {  // apÛs substituiÁıes tamanha ficou = 0?
+    if (val.size() == 0) {  // ap√≥s substitui√ß√µes tamanha ficou = 0?
       result.append("0\n");  // acrescenta "0\n"
-      continue;  // reinicia laÁo while
+      continue;  // reinicia la√ßo while
     }
 
-    len_val = val.size();  // recebe novo tamanho apÛs as substituiÁıes
+    len_val = val.size();  // recebe novo tamanho ap√≥s as substitui√ß√µes
     for (int i = 1; i < 10; ++i) {  // loop para verificar valores restantes
       n_str = '0' + i;  // valor para ser procurado
       found = val.find(n_str);  // retorna indice encontrado
       if (found != string::npos && found < len_val)  // achou e val < len_val
-        len_val = found;  // recebe valor da posiÁ„o encontrada
+        len_val = found;  // recebe valor da posi√ß√£o encontrada
     }  // fim for i
       
     if (len_val == val.size()) {  // tamanhos iguais?
       result.append("0\n");  // valor a ser apresentado "0\n"
-      continue;  // reinicia laÁo while
+      continue;  // reinicia la√ßo while
     }
     
     result.append(val.begin() + len_val, val.end());  // append val ao result
