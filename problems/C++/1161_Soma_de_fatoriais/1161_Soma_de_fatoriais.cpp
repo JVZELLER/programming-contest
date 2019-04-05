@@ -1,29 +1,29 @@
 /*
-	author: Ot·vio Augusto - OAMP
+	author: Ot√°vio Augusto - OAMP
 	problem_name: Soma de Fatoriais
 	problem_number: 1161
-	category: Matem·tica
+	category: Matem√°tica
 	difficulty_level: 6
 	link: https://www.urionlinejudge.com.br/judge/pt/problems/view/1161
 */
 
-#include <iostream>  // entrada e saÌda padr„o
+#include <iostream>  // entrada e sa√≠da padr√£o
 
 using namespace std;
 using ull = unsigned long long;  // novo nome p/ unsigned long long
 
-// funÁ„o recusiva de cauda, valor passado p/ referÍncia
+// fun√ß√£o recursiva de cauda, valor passado p/ refer√™ncia
 inline void fact(ull& val, int mult) { 
     if (val < 2) val = 1;  // menor que 2? retorna 1
     if (mult > 1) fact(val *= mult, mult - 1);  // chama func. com novos valores
-}  // fim da funÁ„o
+}  // fim da fun√ß√£o
 
 int main() {
-    ull m, n;  // vari·veis p/ c·lculo
+    ull m, n;  // vari√°veis p/ c√°lculo
     
-    while (cin >> m >> n) {  // entrada atÈ EOF
-        fact(m, m - 1);  // chamada da funÁ„o
-        fact(n, n - 1);  // chamada da funÁ„o
+    while (cin >> m >> n) {  // entrada at√© EOF
+        fact(m, m - 1);  // chamada da fun√ß√£o
+        fact(n, n - 1);  // chamada da fun√ß√£o
         cout << m + n << endl;  // cout da soma
     }  // fim enquanto
     return 0;  // fim do programa
