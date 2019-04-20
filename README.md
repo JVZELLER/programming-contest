@@ -24,16 +24,16 @@ There is an folder for each problem solved, the name of these folder follows thi
 
 ### URI Online Judge Problems:
 
-[problem_number] + _ + [problem_name]
+[problem_number] + __ + [problem_name]
 
-Ex.: 2136_amigos-do-habey
+Ex.: 2136__amigos_do_habey
 
 ### From other sources or old programming contest
-[contest-name] + _ + [problem-name]
+[contest_name] + __ + [problem_name]
 or
-[source-name] + _ + [problem-name]
+[source_name] + __ + [problem_name]
 
-Ex.: inter-fatecs-2018_formula-rubens
+Ex.: inter_fatecs_2018__formula_rubens
 
 
 ## Problems Files
